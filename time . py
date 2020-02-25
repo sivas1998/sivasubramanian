@@ -1,0 +1,4 @@
+import time as t
+t.local_time()
+time_now = t.local.time()
+print("job completed time on" , time_now)
