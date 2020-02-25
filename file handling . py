@@ -1,0 +1,12 @@
+first create the file and read the file 
+f.read = open ("siva.txt",r)
+print(f.read())
+
+
+create the file and write the file using file handling
+f = open("siva.txt","w")
+f.write("hello siva")
+f = open("siva.txt")
+print(f.read())
+
+and we can able to append a file using file handling using (a) and \n is used for break the lines
